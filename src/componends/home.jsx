@@ -12,31 +12,40 @@ function Home() {
   const services = [
   {
     image: service1,
-    title: "New Borewell Drilling in Hyderabad",
+      alt:"Borewell drilling service in action",
+      title: "New Borewell Drilling in Hyderabad",
     description: "We help you drill and install new borewells using advanced machines.",
     teluguDescription: "మేము ఆధునిక యంత్రాలతో కొత్త బోరు తవ్వక సేవలను అందిస్తాము."
   },
   {
     image: service2,
-    title: "Motor Fitting in Hyderabad",
+      alt:"Borewell drilling service in action",
+
+      title: "Motor Fitting in Hyderabad",
     description: "We provide motor fitting and replacement services for your borewell.",
     teluguDescription: "మీ బోరుకు మోటార్ అమర్చడం మరియు మార్చడం సేవలు అందిస్తున్నాము."
   },
   {
     image: service3,
-    title: "Stuck Motor Removal in Hyderabad",
+      alt:"Borewell drilling service in action",
+
+      title: "Stuck Motor Removal in Hyderabad",
     description: "We specialize in removing motors that are stuck inside borewells.",
     teluguDescription: "బోర్‌వెల్‌లో చిక్కుకున్న మోటార్లను తీసే సేవలను అందిస్తున్నాము."
   },
   {
     image: service4,
-    title: "Borewell Maintenance in Hyderabad",
+      alt:"Borewell drilling service in action",
+
+      title: "Borewell Maintenance in Hyderabad",
     description: "Regular cleaning and checking of your bore to ensure water flow.",
     teluguDescription: "నీటి ప్రవాహం సజావుగా ఉండేలా బోరు పరిశుభ్రత మరియు నిర్వహణ సేవలు."
   },
   {
     image: service5,
-    title: "Service Within 100 KM in Hyderabad",
+      alt:"Borewell drilling service in action",
+
+      title: "Service Within 100 KM in Hyderabad",
     description: "Our services are available within 100 km around Hyderabad.",
     teluguDescription: "హైదరాబాద్ చుట్టూ 100 కిమీ పరిధిలో మా సేవలు అందుబాటులో ఉన్నాయి."
   }
