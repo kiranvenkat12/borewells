@@ -1,0 +1,146 @@
+/* Slide Menu Styles */
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  z-index: 40;
+}
+
+.slide-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 20rem;
+  background: #1e293b;
+  border-left: 1px solid #334155;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-out;
+  z-index: 50;
+}
+
+.slide-menu.open {
+  transform: translateX(0);
+}
+
+.menu-content {
+  padding: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.menu-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.menu-logo-image {
+  height: 2rem;
+  width: 2rem;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
+.menu-logo-text {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #e4e4e4;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #f1f5f9;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #ffa600;
+}
+
+.close-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.menu-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.menu-nav-link {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #f1f5f9;
+  text-decoration: none;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #334155;
+  transition: color 0.3s ease;
+}
+
+.menu-nav-link:hover {
+  color: #ffa600;
+}
+
+.contact-section {
+  margin-top: auto;
+}
+
+.contact-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ffa600;
+  margin-bottom: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  color: #94a3b8;
+  margin-bottom: 1rem;
+}
+
+.contact-icon {
+  width: 1rem;
+  height: 1rem;
+  color: #ffa600;
+  flex-shrink: 0;
+}
+
+.menu-cta-button {
+  background: linear-gradient(to right, #ffa600, #ff8500);
+  color: #003f5c;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(255, 166, 0, 0.2);
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.menu-cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 25px rgba(255, 166, 0, 0.3);
+}
