@@ -1,0 +1,5 @@
+title: My Jekyll Site
+baseurl: ""
+url: "http://example.com"
+markdown: kramdown
+theme: jekyll-theme-primer
